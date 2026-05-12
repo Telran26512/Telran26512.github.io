@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xiaobin Cao</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #2c3e50;
+      background: #fff;
+    }
+    h1 { font-size: 1.8em; margin-bottom: 0.2em; }
+    h2 {
+      font-size: 1.2em;
+      margin-top: 2em;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.3em;
+    }
+    a { color: #2980b9; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+.header img {
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+    .header .info p { margin: 5px 0; color: #555; }
+    .links a { margin-right: 12px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    .date {
+      color: #888;
+      font-size: 0.9em;
+      display: inline-block;
+      min-width: 90px;
+    }
+    .project { margin-bottom: 18px; }
+    .project-title { font-weight: 600; }
+    .project-desc { color: #555; font-size: 0.95em; }
+    .tag {
+      display: inline-block;
+      background: #ecf0f1;
+      color: #7f8c8d;
+      padding: 1px 8px;
+      border-radius: 3px;
+      font-size: 0.8em;
+      margin-right: 4px;
+    }
+    blockquote {
+      border-left: 3px solid #3498db;
+      padding-left: 15px;
+      color: #555;
+      margin: 15px 0;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      font-size: 0.85em;
+      color: #888;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+  <div class="info">
+    <h1>Xiaobin Cao</h1>
+    <p>Undergraduate Student · Junior Year</p>
+    <p>Aspiring ML Systems Engineer</p>
+    <p class="links">
+      <a href="https://github.com/Telran26512">GitHub</a> /
+      <a href="cv.pdf">CV</a>
+    </p>
+  </div>
+  <img src="profile.jpg" alt="profile photo">
+</div>
+
+  <p>
+    I am a third-year undergraduate student with a background in
+    <b>software engineering</b> (Go, Java, basic frontend).
+    I am currently transitioning into <b>machine learning systems</b>,
+    with long-term interests in <b>reinforcement learning infrastructure</b>
+    for large language models and embodied intelligence.
+  </p>
+
+  <p>
+    I am following a self-directed 18–24 month learning path focused on
+    building deep foundations rather than chasing frameworks &mdash; math
+    first, systems thinking second, and production-quality projects as
+    the final output.
+  </p>
+
+  <blockquote>
+    "Math is the dividing line between engineers who can debug and
+    innovate beneath the surface, and those who only know how to use
+    the framework."
+  </blockquote>
+
+  <h2>Research Interests</h2>
+  <ul>
+    <li><b>ML Systems</b> &mdash; distributed training, GPU performance, training infrastructure</li>
+    <li><b>RL Infrastructure</b> &mdash; RLHF pipelines, post-training systems for LLMs</li>
+    <li><b>Embodied Intelligence</b> &mdash; sim-to-real transfer, robotics policies</li>
+  </ul>
+
+  <h2>Current Focus (Phase 1 of 4)</h2>
+  <p>
+    Building mathematical foundations and transitioning my daily
+    programming language from Go/Java to Python.
+  </p>
+  <ul>
+    <li><b>Linear Algebra</b> &mdash; reading Gilbert Strang's
+      <i>Introduction to Linear Algebra</i>; watching 3Blue1Brown's
+      <i>Essence of Linear Algebra</i> series.</li>
+    <li><b>Probability & Statistics</b> &mdash; MIT OCW 6.041
+      (Bertsekas), with emphasis on concepts that recur in ML
+      (KL divergence, MLE, cross-entropy).</li>
+    <li><b>Python Fluency</b> &mdash; NumPy, Matplotlib, and idiomatic
+      Python following Luciano Ramalho's <i>Fluent Python</i>.</li>
+  </ul>
+
+  <h2>Roadmap</h2>
+  <ul>
+    <li><span class="date">Phase 1</span> Math foundations + Python (Months 1–6)</li>
+    <li><span class="date">Phase 2</span> ML fundamentals + first real project (Months 7–12)</li>
+    <li><span class="date">Phase 3</span> Distributed training, GPU programming, RL basics (Months 13–18)</li>
+    <li><span class="date">Phase 4</span> Specialization + capstone portfolio project (Months 19–24)</li>
+  </ul>
+
+  <h2>News</h2>
+  <ul>
+    <li><span class="date">2026-05</span> Started Phase 1 of the ML systems learning journey.</li>
+    <li><span class="date">2026-05</span> Sponsored <a href="https://github.com/Trinkle23897">@Trinkle23897</a> (Jiayi Weng) on GitHub Sponsors &mdash; researcher whose work on Tianshou and OpenAI post-training inspired my direction.</li>
+  </ul>
+
+  <h2>Projects</h2>
+
+  <div class="project">
+    <div class="project-title">
+      <a href="https://github.com/Telran26512/python-bro-code-study">python-bro-code-study</a>
+    </div>
+    <div class="project-desc">
+      Hands-on Python notes and exercises following Bro Code's full-course
+      tutorial. Each module includes concept summaries, exercises written
+      from scratch (not copy-pasted), and personal debugging notes.
+    </div>
+    <span class="tag">Python</span>
+    <span class="tag">learning</span>
+  </div>
+
+  <p style="color: #888; font-size: 0.95em;">
+    More projects coming as I progress through Phases 2–4
+    (planned: NumPy-only linear/logistic regression, a small Transformer
+    from scratch, distributed training experiments, and a capstone project
+    in either RLHF infrastructure or embodied RL).
+  </p>
+
+  <h2>Skills</h2>
+  <ul>
+    <li><b>Languages I'm fluent in:</b> Go, Java, basic frontend (HTML/CSS/JS)</li>
+    <li><b>Languages I'm learning:</b> Python (NumPy, Matplotlib)</li>
+    <li><b>Math:</b> Linear algebra (in progress), probability (planned), multivariable calculus (planned)</li>
+    <li><b>ML/Systems:</b> Foundational &mdash; to be built systematically across the 24-month path</li>
+  </ul>
+
+  <h2>Principles I Follow</h2>
+  <ul>
+    <li><b>Do, don't just watch.</b> Implement every concept from scratch at least once.</li>
+    <li><b>Math first, frameworks second.</b> Frameworks change every 18 months; math doesn't.</li>
+    <li><b>Output publicly.</b> GitHub commits, technical writing, small contributions to open source.</li>
+    <li><b>Reassess every 3 months.</b> The plan is a draft I keep revising, not a contract.</li>
+  </ul>
+
+  <h2>Miscellaneous</h2>
+  <p>
+    I keep a learning journal documenting what I get wrong &mdash; the
+    failures are usually more instructive than the wins. I believe the
+    boring work (debugging, profiling, reading source code) is where the
+    real understanding compounds.
+  </p>
+
+  <footer>
+    Last updated: May 2026 
+  </footer>
+
+</body>
+</html>
