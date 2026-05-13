@@ -3,10 +3,6 @@
 **Undergraduate Student · Junior Year**  
 **Aspiring ML Systems Engineer**
 
-[GitHub](#) · [CV](#)
-
-![Profile Photo](./profile.jpg)
-
 ---
 
 ## About Me
